@@ -19,7 +19,8 @@ header {
   width: 100%;
   /* background: linear-gradient(to right, #bac8f3, #f099aa); */
   /* background-color: aqua; */
-  background-image: url(/assets/img/bg1.jpg);
+  /* background-image: url(/assets/img/bg1.jpg); */
+  z-index: -1;
   display: flex;
 }
 /*  */
@@ -59,7 +60,7 @@ main section {
       rgba(110, 53, 53, 0.3),
       rgba(110, 53, 53, 0.3)
     ),
-    url(/project-1/project-1-img/bg1.jpg);
+    url(/assets/img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
